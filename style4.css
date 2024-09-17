@@ -1,0 +1,46 @@
+#hi {
+    background-color:darkcyan;
+    
+}
+
+h1 {
+    color:aliceblue;
+}
+
+span{
+    color:goldenrod;
+}
+
+a { color:aquamarine;
+}
+
+a:visited {color:blue;
+}
+a:hover {color:yellow;
+}
+
+h3 {
+    background-color: yellow;
+    color:black;
+}
+
+h2 {
+    color:purple;
+}
+
+#divexample {
+    color:red;
+}
+#fathersday {
+    background-color: green;
+    color:yellow;
+}
+#art {
+    background-color: lightgreen;
+}
+#doc{
+    color:red;
+}
+#no{
+    background-color: yellow;
+}
