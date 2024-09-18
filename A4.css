@@ -1,0 +1,45 @@
+a{ 
+    background-color:darkblue;
+    color:red;
+
+}
+a:visited {color:green;
+}
+a:hover {color:yellow;
+}
+#no {
+    color:pink;
+}
+#cool{
+    color:red;
+}
+#context1{ 
+    font-family:Arial;
+}
+#center{
+    text-align: center;
+}
+#textjustify {
+    text-align: justify;
+}
+h1{
+    color:orange;
+    font-weight: lighter;
+    font-style: italic;
+}
+h2{
+    color:orange;
+    font-weight: lighter;
+    font-style: italic;
+}
+.boxmodel {
+    border: 2px solid black; 
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+body{
+    background-image:url(https://cdn.wallpapersafari.com/58/63/GCYaQ7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
