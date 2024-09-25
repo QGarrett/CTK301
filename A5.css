@@ -1,0 +1,86 @@
+nav ul{
+    list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+nav li {
+    border: 1px solid black;
+    width: 150px;
+    padding: 0px;
+    margin: 10px;
+    background-color: darkblue; 
+    display: inline-block;
+}
+
+nav li a {
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover {
+    background-color:blue;
+text-decoration: none;
+color:white;
+}
+h1{ 
+    font-family:Helvetica;
+}
+h2{ 
+    font-family:Helvetica;
+}
+h1 {
+    font-weight: lighter;
+}
+footer {
+    border: 3px solid white;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    font-family:Verdana;
+    font-style:italic;
+    font-weight:bold;
+    background-color:darkblue;
+    color:white;
+    
+    
+}
+
+#box  {color:black;
+padding: 40px;
+text-decoration: none;
+display: block;
+border: 2px solid white;
+margin: 10px;
+background-color:white;
+}
+
+p {
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    font-weight:bold;
+
+  }
+  a:hover {
+    color:red;
+    text-decoration: underline;
+  }
+
+
+  span{color:black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    border: 2px solid white;
+    padding: 0px;
+    margin: 10px;
+    background-color:white;
+    
+
+  }
+  body{
+    background-image:url(https://qgarrett.github.io/CTK301/a5bg.png);
+}
