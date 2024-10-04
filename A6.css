@@ -1,0 +1,117 @@
+body{
+    border:30px solid black;
+    padding: 70px;
+    background-color:black;
+    }
+    
+    h1{
+        font-weight: lighter;
+        font-family: Helvetica;
+    }
+
+    #wrapper{
+      margin: 1em auto; 
+      padding: 0;
+      width:960px;
+      border:3px solid black;
+      background-color:white;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    }
+    
+    header {
+      grid-column: span 6;
+      background:black;
+      padding-left: 1em;
+      color:aliceblue;
+    }
+    
+    nav {
+      grid-column: span 1;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li a {
+    width:200px;
+    }
+    
+    nav li a {
+      display: block;
+      background-color: red;
+      border: 1px solid black;
+      padding: 1em;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: darkred;
+    text-decoration: none;
+    color:white;
+    }
+    
+    a {
+        text-decoration: none;
+        font-weight:bold;
+        color:red;
+    
+      }
+
+      a:hover {
+        color:darkblue;
+        text-decoration: underline;
+      }
+
+    main {
+      grid-column: span 5;
+      padding:0 1em 0 1em;
+    }
+    #bob{
+      float:left;
+      margin-left: 1em;
+    }
+    
+   
+
+    h2 {
+        font-family: Helvetica;
+    }
+
+
+    
+    #box  {color:black;
+        padding: 70px;
+        margin: 70px;
+        text-decoration: none;
+        display: block;
+        border: 2px solid black;
+        margin: 10px;
+        background-image:url(https://qgarrett.github.io/CTK301/a62.png);
+        }
+        
+        p {
+            text-align: justify;
+            font-family: Georgia;
+        }
+   footer{
+    border: 2px solid black;
+    background-color: red;
+    color:white;
+    text-align: center;
+    grid-column:span 6;
+    font-family:Verdana;
+    font-style: italic;
+   }
+   #grid2{
+    grid-column:span 4;
+   }
+
+  .italicized{
+    font-family: Georgia;
+
+  }
