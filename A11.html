@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="A11.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+<head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="A11.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
 
 </head>
+
 <body>
 
     <!-- <div id="box">
@@ -76,31 +78,32 @@
       
         </div>
       </div>-->
-      <div id="box">
+    <div id="box">
         <ul class="hidden">
-        <div id="wrapper">
-      
-      <div id="myCarousel" class="f-carousel">
-        
-        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
-        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
-        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+            <div id="wrapper">
+
+                <div id="myCarousel" class="f-carousel">
+
+                    <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+                    <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+                    <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+                </div>
+
+            </div>
+        </ul>
+        <script>
+            import { Autoplay } from "@fancyapps/ui/dist/carousel/carousel.autoplay.esm.js";
+            import "@fancyapps/ui/dist/carousel/carousel.autoplay.css";
+            const container = document.getElementById("myCarousel");
+            const options = {
+                Autoplay: {
+                    timeout: 3000,
+                },
+            };
+            fc.plugins().Autoplay.stop();
+            new Carousel(container, options, { Autoplay });
+        </script>
     </div>
-      
-        </div>
-    </ul>
-      <script>
-        import { Autoplay } from "@fancyapps/ui/dist/carousel/carousel.autoplay.esm.js";
-import "@fancyapps/ui/dist/carousel/carousel.autoplay.css";
-      const container = document.getElementById("myCarousel");
-const options = {
-  Autoplay: {
-    timeout: 3000,
-  },
-};
-fc.plugins().Autoplay.stop();
-new Carousel(container, options, { Autoplay });
-    </script>
 </body>
-</div>
+
 </html>
