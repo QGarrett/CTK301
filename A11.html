@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="A11.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+</head>
+<body>
+
+    <!-- <div id="box">
+        <div id="wrapper">
+            <div class="container">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="hidden">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <div class="carousel-inner">
+      <div class="item active">
+            <img src="https://qgarrett.github.io/CTK301/space.webp" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+    
+          <div class="item">
+            <img src="https://qgarrett.github.io/CTK301/space.webp" alt="Los Angeles" style="width:100%;">
+           
+          </div>
+        
+          <div class="item">
+            <img src="https://qgarrett.github.io/CTK301/space.webp" alt="Los Angeles" style="width:100%;">
+
+            <span class="row1">
+                <img src="https://qgarrett.github.io/CTK301/advengertimeearth-removebg-preview.png" class="w3-circle" alt="Avatar" style="width:200px">
+                
+                <span id="margin">
+                
+                <img src="https://qgarrett.github.io/CTK301/advengertimeearth-removebg-preview.png" class="w3-circle" alt="Avatar" style="width:200px">
+                
+                </span>
+                
+                <img src="https://qgarrett.github.io/CTK301/advengertimeearth-removebg-preview.png" class="w3-circle" alt="Avatar" style="width:200px">
+                </span>
+                <div class="centered"><h1>ADVENTURE TIME</h1></div>
+                        </div>
+                <div id="row2">
+                <nav>
+                                
+                    <ul>
+                        <li><a href="#" target="_blank">Setting Up</a></li>
+                        
+                        <li><a href="#" target="_blank">Page Structure</a></li>
+                       
+                        <li><a href="#" target="_blank">Basic HTML</a></li>
+                       
+                        <li><a href="#" target="_blank">Basic CSS</a></li>
+                        
+                    </ul>
+                </nav>
+                </div>
+                <div id="row3">
+                <p id="para">
+                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+                <footer>qwhwicbweciwecbweicuwenciowep</footer>
+                </div>
+                </div>
+            
+          </div> 
+        
+      
+        </div>
+      </div>-->
+      <div id="box">
+        <ul class="hidden">
+        <div id="wrapper">
+      
+      <div id="myCarousel" class="f-carousel">
+        
+        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+        <div class="f-carousel__slide"><img src="https://qgarrett.github.io/CTK301/space.webp"></div>
+    </div>
+      
+        </div>
+    </ul>
+      <script>
+        import { Autoplay } from "@fancyapps/ui/dist/carousel/carousel.autoplay.esm.js";
+import "@fancyapps/ui/dist/carousel/carousel.autoplay.css";
+      const container = document.getElementById("myCarousel");
+const options = {
+  Autoplay: {
+    timeout: 3000,
+  },
+};
+fc.plugins().Autoplay.stop();
+new Carousel(container, options, { Autoplay });
+    </script>
+</body>
+</div>
+</html>
